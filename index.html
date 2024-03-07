@@ -1,4 +1,6 @@
-<html>  <!--"lang="pt", se usa para seleccionar idiomas de la pagina-->>
+<html lang="es">  <!--"lang="pt", se usa para seleccionar idiomas de la pagina-->
+
+        <!-- es un espacio para incluir los estilos y llamados a scripts -->
     <head>
         <title> J. R. O. </title>
 
@@ -6,94 +8,111 @@
 
         <meta charset="UTF-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+            <!-- para vincular la carpeta de estilos -->
         <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet"> 
         <link rel="stylesheet" href="style.css"> 
+
+
         <title>Landing Page</title> 
         
         
 
 
     </head>
-
+    <!-- estructura de la pagina -->
     <body> 
+        <!-- menu de navegacion -->
         <nav> 
-            <div class="nav-logo"> 
+            <!-- titulo principal, se puede colocar texto, logo y/o imagen -->
+            <div class="logo"> 
+                 <!--  <p>palabra de titulo</p>  -->
                  
-                <img src="imagenes/a.jpg"> 
+            </div>
      
-            </div> 
-             
+            
+            <div class="nav">
+                
             <!--- los elementos que se van a incluir en la barra --> 
-            <ul class="nav-links"> 
-                <li > 
-                    <a href="home">Inicio</a> 
-                </li> 
-                <li class="link">
-                    <a href="nosotros">Nosotros</a>
-                </li> 
-                <li class="link">
-                    <a href="#proyectos">Proyectos</a>
-                </li> 
-                <li class="link">
-                    <a href="#contacto">Contacto</a>
-                </li> 
-            </ul> 
-            <button class="btn"><a href="#contact">Contact Us</a></button> 
+            <!-- "ul" para crear columnas, "li" para crear lineas -->
+                <ul class="nav-links"> 
+                    <li><img src="imagenes/a.jpg"></li>
+                    <li > 
+                        <!-- para crea enlaces, puede ser dentro de la misma pagina o enlaces externos -->
+                        <a href="#home">Inicio</a> 
+                    </li> 
+                    <li class="link">
+                        <a href="#nosotros">Nosotros</a>
+                    </li> 
+                    <li class="link">
+                        <a href="#proyectos">Proyectos</a>
+                    </li> 
+                    <li class="link">
+                        <a href="#socios">Socios</a>
+                    </li> 
+                </ul> 
+                
+                <button class="btn"><a href="contact">Contact Us</a></button> 
+            </div> 
         </nav> 
      
      
      
-        <section  id="home"> 
+        <section class="gallery" id="nosotros"> 
      
             <!-- este es el div que contiene las dos imagenes--> 
-            <div class="header-image"> 
-     
-                <img src="https://img.freepik.com/fotos-premium/grupo-arquitectos-usando-cascos_13339-283090.jpg" 
-                 class="img-1"> 
+            <div class="section-container gallery-container">
+                <div class="image-gallery">
+                    <div class="gallery-col">
+                        <img src="https://img.freepik.com/fotos-premium/grupo-arquitectos-usando-cascos_13339-283090.jpg" 
+                        alt="proyeccion"> 
+                    </div>
+                    
+
+                </div>           
+                <!-- este es el div que contiene el texto de la seccion--> 
              
-            </div> 
-     
-             <!-- este es el div que contiene el texto de la seccion--> 
-             
-              <!--este es el div general --> 
-            <div class="mision-vision"> 
-                <h1>Mision</h1>
-                <p>"En nuestra constructora eléctrica, nos comprometemos a ser líderes en la industria mediante la entrega de 
+                 <!--este es el div general --> 
+                <div class="mision-vision"> 
+                    <h1>Mision</h1>
+                    <p>"En nuestra constructora eléctrica, nos comprometemos a ser líderes en la industria mediante la entrega de 
                     soluciones eléctricas innovadoras, seguras y sostenibles. Nuestra misión es proporcionar a nuestros clientes 
                     servicios de alta calidad, garantizando la eficiencia energética y la confiabilidad en cada proyecto. 
                     Nos esforzamos por promover un entorno de trabajo seguro y colaborativo para nuestro equipo, mientras contribuimos 
                     al desarrollo sostenible de las comunidades en las que operamos."
-                </p>
-                <h1>Vision</h1>
-                <p>"Nos visualizamos como la constructora eléctrica de referencia a nivel nacional e internacional, 
+                    </p>
+                    <h1>Vision</h1>
+                    <p>"Nos visualizamos como la constructora eléctrica de referencia a nivel nacional e internacional, 
                     reconocida por nuestra excelencia en el diseño, la implementación y el mantenimiento de infraestructuras eléctricas. 
                     Buscamos ser pioneros en la adopción de tecnologías avanzadas y prácticas sostenibles, posicionándonos como 
                     agentes de cambio en la industria hacia un futuro energético más limpio y eficiente. Aspiramos a ser la opción 
                     preferida de nuestros clientes y empleados, impulsados por nuestra pasión por la innovación y el compromiso con 
                     la excelencia en todo lo que hacemos."
-                </p>
+                    </p>
+                 </div> 
             </div> 
+
+        </section>
      
-     
-     
-     
-     
-     
-        </section> 
-     
-     
-        <section id="destinations" > 
-        </section> 
-     
-     
-        <section id="pricing" > 
-        </section> 
-     
-     
-        <section id="reviews" > 
-        </section> 
-     
-     
+
+        <section id="proyectos"> 
+        </section>
+
+        <!-- footer (pie de pagina) -->
+        <footer class="footer">
+            <div class="section-container footer-container">
+            </div>
+            <div class="footer-col">
+                <h3>Adventure<span></span></h3>
+                <p>sadadeddfwedqede</p>
+            </div>
+            <div class="footer-col">
+                <p>asas</p>
+            </div>
+
+
+
+        </footer>
      
      
      

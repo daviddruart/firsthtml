@@ -1,0 +1,22 @@
+.logo{
+    /* modificacion de texto */
+
+   /*  font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    cursor: pointer; */
+
+    /* modificacion de imagen */
+    width: 80px; /* Cambia el ancho de la imagen */
+    height: 70px; /* Cambia la altura de la imagen */
+}
+.nav-links{
+    /* estilo de bordes */
+    list-style: none;
+    /*  */
+    display: flex;
+    /* ubicacion de contenido */
+    align-items:center;
+    /* espacio entre celdas */
+    gap: 1rem;
+}
